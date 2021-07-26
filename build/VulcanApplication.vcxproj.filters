@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData">
+      <UniqueIdentifier>{F852EB63-437C-846A-220F-8D9ED6DAEC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData\Roaming">
+      <UniqueIdentifier>{D51E5808-912B-5C70-4BB7-475D1DBFA067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData\Roaming\npm">
+      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData\Roaming\npm\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData\Roaming\npm\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\AppData\Roaming\npm\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP">
+      <UniqueIdentifier>{E2A5C37A-94F8-6F80-6A01-8DC86DF1B7BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents">
+      <UniqueIdentifier>{87566BA0-CA33-1144-65F5-087C5F9D6C20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development">
+      <UniqueIdentifier>{7751A32F-E8BA-2D59-A6B6-456DF6350046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication">
+      <UniqueIdentifier>{047E76A6-D991-0F57-45FE-7DBB3E586F94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication">
+      <UniqueIdentifier>{3BC18B0F-B7B2-C600-E550-2D7BB5C8E6D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\x64">
+      <UniqueIdentifier>{E075064C-529C-A4E7-0810-FB88D599C3BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\x64\Debug">
+      <UniqueIdentifier>{9B4F9BB1-B7F5-AEC9-1B79-B88B46706C38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\CodexBus.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\CommandLineProcessor.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\DataExchangeCodex.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\DataInputManager.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\DataOutputManager.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\MatlabCodex.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\NodeInterfaceHandler.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\RecursionEngine.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\TDMSCodex.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\TDMSDataStorageElement.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\TDMSDataValues.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\ThreadManager.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication\VulcanApplication.cpp">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\VulcanApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\LEHMJP\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\LEHMJP\AppData\Roaming\npm\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\binding.gyp">
+      <Filter>..</Filter>
+    </None>
+    <None Include="C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\x64\Debug\CodexDistributable.dll">
+      <Filter>C:\Users\LEHMJP\Documents\Development\VulcanDigitalEngineeringApplication\VulcanApplication\x64\Debug</Filter>
+    </None>
+  </ItemGroup>
+</Project>

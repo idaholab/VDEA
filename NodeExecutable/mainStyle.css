@@ -1,0 +1,185 @@
+html
+{
+	height:100%;
+}
+body
+{
+	background: rgb(204,204,204);
+	margin: 0;
+	height:100%;
+}
+
+
+.HeaderContainer
+{
+	background: rgb(43,168,224);
+	padding: .25em;
+	flex: 0 1 auto;
+}
+
+h1
+{
+	color:white;
+	font-family:"Arial Black", "Impact","Franklin Gothic Heavy";
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+.HeaderContainer h1
+{
+	display:inline-block;
+	position: relative;
+	left: .5em;	
+}
+
+.statusMenu
+{
+	flex: 0 1 1em;
+	position: relative;
+	left:1em; 
+	width:max-content;
+	margin: .25em 0;
+	background: rgb(204,204,204);
+	display:block;
+	font-family: "Arial";
+	
+}
+
+.content 
+{
+	font-family: "Arial";
+	background: white;
+}
+
+.center
+{
+	text-align:center;
+	display:inline-block;
+	align-self:center;
+}
+
+.mainContentArea
+{
+	font-family: "Arial";
+	background: white;
+	text-align:center;
+	margin: 1em;
+	/*padding: 1em;*/
+	flex: 1 1 auto;
+	display:flex;
+	justify-content:center;
+}
+
+.hBox
+{
+	display: inline-block;
+}
+
+.rightJustify
+{
+	float:right;
+	
+}
+
+.leftJustify
+{
+	float:left;
+}
+
+.rowElementBorder
+{
+	border-bottom: 2px solid rgb(204,204,204);
+}
+
+.verticalSpanCenter
+{
+	display:inline-block;
+	margin: 15px 1px;
+	padding:3px;
+}
+
+.hBox.rightJustify button
+{
+	color:white;
+	font-family: "Arial";
+	margin: 10px 1px;
+	padding: 3px;
+	background:rgb(27,105,141);
+	height: 4em;
+}
+
+.hBox.rightJustify button:hover
+{
+	background:rgb(57,135,171);
+}
+
+.hBox.rightJustify button:active
+{
+	background:rgb(27,105,141);
+}
+
+.hBox.rightJustify button:focus
+{
+	outline:none;
+}
+
+.altButton
+{
+	color:white;
+	font-family: "Arial";
+	margin: 10px 1px;
+	padding: 3px;
+	background:rgb(57,135,171);
+	height: 2em;
+}
+
+.altButton:hover
+{
+	background:rgb(27,105,141);
+}
+
+.altButton:active
+{
+	background:rgb(57,135,171);
+}
+
+.altButton:focus
+{
+	outline:none;
+}
+
+.searchIconImage
+{
+	width:15px;
+	height:15px;
+	margin-right:3px;
+	float:left;
+    display: block;
+}
+
+.flexBox
+{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.evenSpacingHorizontalList
+{
+	width:100%;
+	float:left;
+	padding:0;
+}
+
+.standardCenterFill
+{
+	background:white;
+}
+
+.dropdownContentCollapsed
+{
+	display:none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+	<link rel="stylesheet" type="text/css" href="mainStyle.css"/>
+	<script src="Widgets/foundFileProcessingElement.js"></script>
+	<script src="Widgets/pluginViewer.js"></script>
+    <title>Vulcan Digital Engineering Application</title>
+  </head>
+  <body>
+	<div class="flexBox">
+	<div class="HeaderContainer">
+    <h1>VULCAN DE</h1>
+	<span class="hBox rightJustify">
+		<button id="newScanButton"><img class="searchIconImage" src="icons/MagnifingGlass.png"></img>New Scan</button>
+		<button >Output all</button>
+		<button id="pluginViewScreen">Plugins</button>
+	</span>
+	</div>
+	<div class="statusMenu">
+		<span>Scan | Status: Waiting</span>
+	</div>
+	<div class="mainContentArea" id="mainContentArea">
+		<div class="content center">
+		<h3>Begin Scanning For Files</h3>
+		<a href="totallyNewFile.html">
+		<button class="altButton"><img class="searchIconImage" src="icons/MagnifingGlass.png"></img>Scan Now</button>
+		</a>
+		</div>
+	</div>
+	</div>
+    <!-- You can also require other files to run in this process -->
+    <script src="renderer.js"></script>
+  </body>
+</html>

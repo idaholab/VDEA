@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CommandLineProcessor">
+      <UniqueIdentifier>{bef06987-7928-4c35-a715-cadd170a2618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataInputManager">
+      <UniqueIdentifier>{307beddc-aebc-4d93-ab82-0447ae034115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodexBus">
+      <UniqueIdentifier>{c9db2338-03dc-46f1-bca6-54c023b0f883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodexBus\Codexes">
+      <UniqueIdentifier>{5e954c00-cb3a-439a-8171-5e8df21d1766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataOutputManager">
+      <UniqueIdentifier>{82daf503-10ea-44e1-9cb6-9487ad8af549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadManager">
+      <UniqueIdentifier>{3f5a0c01-3065-42e9-9e89-2b96c1d347ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RecursionEngine">
+      <UniqueIdentifier>{63590420-658b-4bd1-847a-0c19e3d6b509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodexBus\Codexes\TDMSCodex">
+      <UniqueIdentifier>{364707b7-4f41-4f11-a16c-644a4cfc9d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodexBus\Codexes\MatlabCodex">
+      <UniqueIdentifier>{5b911415-b099-4483-bc2d-ec313e2b8e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NodeInterface">
+      <UniqueIdentifier>{1679c36b-11ab-4a7c-8c3f-65c6fdfad5a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VulcanApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLineProcessor.cpp">
+      <Filter>CommandLineProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInputManager.cpp">
+      <Filter>DataInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CodexBus.cpp">
+      <Filter>CodexBus</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOutputManager.cpp">
+      <Filter>DataOutputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>ThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionEngine.cpp">
+      <Filter>RecursionEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DataExchangeCodex.cpp">
+      <Filter>CodexBus\Codexes</Filter>
+    </ClCompile>
+    <ClCompile Include="TDMSCodex.cpp">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClCompile>
+    <ClCompile Include="TDMSDataStorageElement.cpp">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClCompile>
+    <ClCompile Include="TDMSDataValues.cpp">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClCompile>
+    <ClCompile Include="MatlabCodex.cpp">
+      <Filter>CodexBus\Codexes\MatlabCodex</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeInterfaceHandler.cpp">
+      <Filter>NodeInterface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommandLineProcessor.h">
+      <Filter>CommandLineProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="DataInputManager.h">
+      <Filter>DataInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CodexBus.h">
+      <Filter>CodexBus</Filter>
+    </ClInclude>
+    <ClInclude Include="DataOutputManager.h">
+      <Filter>DataOutputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>ThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionEngine.h">
+      <Filter>RecursionEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DataExchangeCodex.h">
+      <Filter>CodexBus\Codexes</Filter>
+    </ClInclude>
+    <ClInclude Include="TDMSCodex.h">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="TDMSDataStorageElement.h">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="TDMSDataValues.h">
+      <Filter>CodexBus\Codexes\TDMSCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="MatlabDataValues.h">
+      <Filter>CodexBus\Codexes\MatlabCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="MatlabDataStorageElemenet.h">
+      <Filter>CodexBus\Codexes\MatlabCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="MatlabCodex.h">
+      <Filter>CodexBus\Codexes\MatlabCodex</Filter>
+    </ClInclude>
+    <ClInclude Include="NodeInterfaceHandler.h">
+      <Filter>NodeInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="CodexHeader.h">
+      <Filter>CodexBus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
