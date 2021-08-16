@@ -17,6 +17,7 @@ function openFileDialogForScan(e)
 	api.send('openFileDialog');
 	api.on('fileSelected', (event, data) => {
 		var message = '{"response":"fileSelection","fileSelection":"'+data+'"}'
+		console.log(message);
 		worker.postMessage(message);
 	});	
 }
@@ -74,9 +75,6 @@ function handleFileSelection(returnValue)
 	   //create all necessary elements from the copy element 
 	   //document.querySelector('h1').innerHTML = "native addon directory search('.'): " + returnValue.fileSelection;
 	   
-	   worker.terminate();
-	   
-	   worker = undefined;
 	}
 }
 
@@ -101,8 +99,5 @@ function displayDefaultPlugins(returnValue)
 		//create all necessary elements from the copy element 
 		//document.querySelector('h1').innerHTML = "native addon directory search('.'): " + returnValue.fileSelection;
 
-		worker.terminate();
-
-		worker = undefined;
 	}
 }
