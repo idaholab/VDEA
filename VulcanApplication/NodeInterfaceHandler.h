@@ -11,6 +11,8 @@
 #include <fstream>
 #include "RecursionEngine.h"
 #include "CodexBus.h"
+#include "DataOutputManager.h"
+#include "DataInputManager.h"
 
 namespace NodeInterfaceHandler
 {
@@ -18,6 +20,7 @@ namespace NodeInterfaceHandler
 
 	Napi::Array getFileListingWrapped(const Napi::CallbackInfo& info);
 	Napi::Array getDefaultPluginListing(const Napi::CallbackInfo& info);
+	Napi::Array convertSingleFile(const Napi::CallbackInfo & info);
 	//add number function
 	int add(int x, int y);
 	//add function wrapper

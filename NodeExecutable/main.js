@@ -1,4 +1,5 @@
 // Modules to control application life and create native browser window
+//This is the basic start point for the system
 const {app, BrowserWindow,ipcMain} = require('electron')
 const path = require('path')
 
@@ -33,10 +34,30 @@ ipcMain.on('showPlugins',(event,arg) =>
 	event.reply('currentPluginListing');
 })
 
+ipcMain.on('openDirectorySelector',(event,arg) =>
+{
+	const buff = openDirectoryExplorer();
+	event.reply('directorySelected',buff);
+})
+
 function openFileDialogExplorer()
 {
 	const { dialog } = require('electron')
 	var returnValue = dialog.showOpenDialogSync({ properties: ['openFile','openDirectory','multiSelections'] });
+	return returnValue;
+}
+
+function openDirectoryExplorer()
+{
+	const { dialog } = require('electron')
+	var returnValue = new Object();
+	 
+	
+	var directory = dialog.showOpenDialogSync({ 
+		properties: ['openDirectory']});
+	returnValue.selectedInputCodex = "DataExchangeFormat";
+	returnValue.selectedOutputCodex = "DataExchangeFormat";
+	returnValue.selectedDirectory = directory;
 	return returnValue;
 }
 

@@ -2,7 +2,7 @@
 // It has the same sandbox as a Chrome extension.
 const {contextBridge,ipcRenderer} = require('electron')
 
-const validChannels = ["openFileDialog","fileSelected","showPlugins","currentPluginListing","response"];
+const validChannels = ["openFileDialog","openDirectorySelector","fileSelected","directorySelected","showPlugins","currentPluginListing","response"];
 
 contextBridge.exposeInMainWorld(
   "api", {

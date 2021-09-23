@@ -74,8 +74,9 @@ void CodexBus::initializeCodexPlugins(char * pluginDirectory, MessageHandlingSys
 				if (!currentLibrary)
 				{
 					std::cout << "Well The library does not seem to exist, that is not good" << std::endl;
+					std::cout << "Error Message: " << GetLastError() << std::endl;
 					currentMessageHandler->codexError(currentMessageHandler->concatenateMessages(3, "Codex Plugin: ", plugins->filePaths[i], " Is not loading"));
-					return;
+					continue;
 				}
 
 				typedef CodexBase * (__cdecl * pluginBase) (void);
@@ -85,7 +86,7 @@ void CodexBus::initializeCodexPlugins(char * pluginDirectory, MessageHandlingSys
 				if (!nextPlugin)
 				{
 					currentMessageHandler->codexError(currentMessageHandler->concatenateMessages(3, "Codex Plugin: ", plugins->filePaths[i] ," Does not contain construction element"));
-					return;
+					continue;
 				}
 
 				addPluginToCurrentCodexes(nextPlugin());

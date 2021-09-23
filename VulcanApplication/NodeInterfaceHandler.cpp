@@ -47,6 +47,37 @@ Napi::Array NodeInterfaceHandler::getDefaultPluginListing(const Napi::CallbackIn
 	return returnBuffer;
 }
 
+Napi::Array NodeInterfaceHandler::convertSingleFile(const Napi::CallbackInfo & info)
+{
+	Napi::Env env = info.Env();
+	if (!info[0].IsString())
+	{
+		Napi::TypeError::New(env, "expected a string").ThrowAsJavaScriptException();
+	}
+	if (!info[1].IsString())
+	{
+		Napi::TypeError::New(env, "expected a string").ThrowAsJavaScriptException();
+	}
+	if (!info[2].IsString())
+	{
+		Napi::TypeError::New(env, "expected a string").ThrowAsJavaScriptException();
+	}
+	if (!info[3].IsString())
+	{
+		Napi::TypeError::New(env, "expected a string").ThrowAsJavaScriptException();
+	}
+
+	char * selectedFile = ((char *)((std::string) info[0].ToString()).c_str());
+	char * outputDirectory = ((char *)((std::string) info[1].ToString()).c_str());
+	char * selectedInputCodex = ((char *)((std::string) info[2].ToString()).c_str());
+	char * selectedOutputCodex = ((char *)((std::string) info[3].ToString()).c_str());
+
+	PrimaryDataStorage * dataStorage = new PrimaryDataStorage();
+
+	DataOutputManager * dataOutputManager = new DataOutputManager();
+	DataInputManager * dataInputManager = new DataInputManager();
+}
+
 Napi::Number NodeInterfaceHandler::addWrapped(const Napi::CallbackInfo& info) {
 	Napi::Env env = info.Env();
 	//check if arguments are integer only.
@@ -67,5 +98,6 @@ Napi::Object NodeInterfaceHandler::Init(Napi::Env env, Napi::Object exports)
 	exports.Set("add", Napi::Function::New(env, NodeInterfaceHandler::addWrapped));
 	exports.Set("GetFileListing", Napi::Function::New(env, NodeInterfaceHandler::getFileListingWrapped));
 	exports.Set("GetPluginListingDefault", Napi::Function::New(env, NodeInterfaceHandler::getDefaultPluginListing));
+	exports.Set("ConvertSingleFile", Napi::Function::New(env, NodeInterfaceHandler::convertSingleFile));
 	return exports;
 }

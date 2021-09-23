@@ -1,13 +1,15 @@
+
 function foundFileProcessingElement(rawFilePath)
 {
 	this.fileName = rawFilePath.slice(rawFilePath.lastIndexOf("\\") +1);
 	this.filePath = rawFilePath;
+	this.ButtonGrouping = new buttonGrouping();
 	
 	this.getListItem = function()
 	{
 		var listItem = document.createElement("li");
 		var currentDiv = document.createElement("div");
-		var currentButtonGrouping = new buttonGrouping();
+		var currentButtonGrouping = this.ButtonGrouping;
 		var fileDetailsCurr = new fileDetails();
 		var spanSection = document.createElement("span");
 		spanSection.innerHTML = this.fileName;
@@ -23,10 +25,10 @@ function foundFileProcessingElement(rawFilePath)
 		currentDiv.classList.add("leftRightJustified");
 	    currentDiv.classList.add("rowElementBorder");
 		listItem.appendChild(currentDiv);
+			
 		
 		return listItem;
-	}
-	
+	}	
 }
 
 function buttonGrouping()
@@ -44,7 +46,6 @@ function buttonGrouping()
 	this.divContainer.appendChild(this.modifyButton);
 	this.divContainer.appendChild(this.graphButton);
 	this.divContainer.appendChild(this.outputButton);
-	
 }
 
 function fileDetails()

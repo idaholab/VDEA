@@ -17,6 +17,16 @@ function openFileDialogForScan(e)
 	api.send('openFileDialog');
 	api.on('fileSelected', (event, data) => {
 		var message = '{"response":"fileSelection","fileSelection":"'+data+'"}'
+		worker.postMessage(message);
+	});	
+}
+
+function openFileDialogForOutput(e)
+{
+	console.log(e);
+	api.send('openDirectorySelector');
+	api.on('directorySelected', (event, data) => {
+		var message = '{"response":"convertSingleFile","outputDirectory":"'+data.selectedDirectory+'","selectedFile":"'+e.srcElement.parentObject.filePath+'","selectedInputCodex":"'+data.selectedInputCodex+'","selectedOutputCodex":"'+data.selectedOutputCodex+'"}'
 		console.log(message);
 		worker.postMessage(message);
 	});	
@@ -28,6 +38,7 @@ function showDefaultPluginListing(e)
 }
 
 
+//This is the function that will return the information coming from the worker
 worker.onmessage = function(event) { 
    
 	//this will probably need to be made into something more modular to make this more readable
@@ -46,17 +57,20 @@ worker.onmessage = function(event) {
 		{
 			displayDefaultPlugins(returnValue);
 		}break;
+		case "convertSingleFile":
+		{
+			showOutputValue(returnValue);
+		}break;
 	}
-	
-
 }
+
 worker.onerror = function (event) {
   console.log(event.message, event);
 };
 
 function handleFileSelection(returnValue)
 {
-	   	if(returnValue.fileSelection != null)
+	if(returnValue.fileSelection != null)
 	{   
 	   var fileListing = returnValue.fileSelection.split(",");
 	   
@@ -67,6 +81,7 @@ function handleFileSelection(returnValue)
 	   for(var i =0;i < fileListing.length;i++)
 	   {
 			var currentItem = new foundFileProcessingElement(fileListing[i]);
+			setButtonCommands(currentItem);
 			currentlyFoundElements.push(currentItem);
 			unorderedList.appendChild(currentItem.getListItem());
 	   }
@@ -76,6 +91,13 @@ function handleFileSelection(returnValue)
 	   //document.querySelector('h1').innerHTML = "native addon directory search('.'): " + returnValue.fileSelection;
 	   
 	}
+}
+
+function setButtonCommands(currentItem)
+{
+	//This seems wrong but I dont know how else to do this but I am running out of other options
+	currentItem.ButtonGrouping.outputButton.parentObject = currentItem;
+	currentItem.ButtonGrouping.outputButton.addEventListener("click",openFileDialogForOutput);
 }
 
 function displayDefaultPlugins(returnValue)
